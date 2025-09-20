@@ -37,12 +37,31 @@ The problem wasn’t the data — it was the *lack of filtering, search, and exp
 3. Run the app:
    streamlit run code.py 
 
+---
+
 ## Requirements 
 
 See requirments.txt for full list.
 Make sure wkhtmltopdf is installed for PDF export:
 . Download here: https://wkhtmltopdf.org/downloads.html
 . Default path: C:\Program Files\wkhtmltopdf\bin\wkhtmltopdf.exe
+
+## 🔑 Access Instructions
+
+To use the app, login with the following credentials:
+
+- *Username*: admin
+- *Password*: pass123
+
+Once logged in, you’ll have full access to data entry, filtering, PDF export, and management tools.
+
+---
+
+## 🌐 Live App
+
+Try it now:  
+🔗 [SABINA SUPPLIERS Transport Log](https://transportlog-lvxvghpfjmaw8ve8yftvae.streamlit.app/)
+
 
 ## Data format 
 The app reads and writes to data.csv. Monthly backups are stored in /backups
