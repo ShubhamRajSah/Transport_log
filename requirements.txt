@@ -1,6 +1,3 @@
 streamlit
 pandas
 pdfkit
-datetime
-shutil
-os
