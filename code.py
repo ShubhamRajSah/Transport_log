@@ -52,7 +52,7 @@ if st.session_state.authenticated:
         full_path = os.path.join(desktop_path, f"{filename}.pdf")
 
         # PDF configuration
-        config = pdfkit.configuration(wkhtmltopdf=r"C:\\Program Files\\wkhtmltopdf\\bin\\wkhtmltopdf.exe")
+        config = pdfkit.configuration(wkhtmltopdf="/usr/bin/wkhtmltopdf")
 
         # Convert DataFrame to HTML
         html_table = df.to_html(index=False, border=0, justify="center")
